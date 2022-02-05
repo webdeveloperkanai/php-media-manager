@@ -43,7 +43,7 @@ use App\Http\Controllers\AdminController;
 								</form>
 								<div class="row" style="padding-top:50px">
 									<?php
-									$folder = "files/documents";
+									$folder = "documents";
 									chdir($folder);
 									if (isset($_GET['del'])) {
 										try {
